@@ -1,0 +1,221 @@
+/* screen - positron */
+
+.black-border-1px {
+  border: 1px solid var(--black);
+}
+.montserrat-medium-black-15px {
+  color: var(--black);
+  font-family: 'Montserrat', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+}
+.positron {
+  align-items: center;
+  background-color: var(--white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 812px;
+  justify-content: flex-start;
+  overflow: hidden;
+  overflow-x: hidden;
+  padding: 14.3px 0;
+  position: relative;
+  width: 375px;
+}
+.positron .battery-ASWxeQ {
+  background-color: transparent;
+  height: 11px;
+  position: absolute;
+  right: 0px;
+  top: 3px;
+  width: 24px;
+}
+.positron .border-hvZ4bZ {
+  background-color: transparent;
+  border-radius: 2.6666667461395264px;
+  height: 100%;
+  left: 0px;
+  opacity: 0.35;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 2px);
+}
+.positron .cap-hvZ4bZ {
+  background-color: transparent;
+  bottom: calc(50.00% - 2px);
+  height: 4px;
+  position: absolute;
+  right: 0px;
+  width: 1px;
+}
+.positron .capacity-hvZ4bZ {
+  background-color: var(--black);
+  border-radius: 1.3333333730697632px;
+  height: calc(100.00% - 4px);
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 18px;
+}
+.positron .cellular-c-ction-path-86n9Io {
+  background-color: transparent;
+  height: 99.99%;
+  left: 60.87%;
+  position: absolute;
+  top: 0px;
+  width: 39.13%;
+}
+.positron .cellular-c-ction-path-Bjhz4v {
+  background-color: transparent;
+  height: 66.66%;
+  left: 0px;
+  position: absolute;
+  top: 33.33%;
+  width: 39.13%;
+}
+.positron .cellular-c-ction-path-DDKxlu {
+  background-color: transparent;
+  height: 100%;
+  left: 75.67%;
+  position: absolute;
+  top: 0px;
+  width: 24.32%;
+}
+.positron .cellular-c-ction-path-xn9F0I {
+  background-color: transparent;
+  height: 100.00%;
+  left: 82.35%;
+  position: absolute;
+  top: 0px;
+  width: 17.65%;
+}
+.positron .cellular-connection-ASWxeQ {
+  background-color: transparent;
+  height: 11px;
+  position: absolute;
+  right: 50px;
+  top: 3px;
+  width: 17px;
+}
+.positron .color-burst-C61RwL {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 812px;
+  margin-top: 96px;
+  position: relative;
+  width: 375px;
+}
+.positron .component-4-1-y5mpsS {
+  background-color: var(--white);
+  border: 1px solid var(--baby-powder);
+  height: 812px;
+  left: 0px;
+  overflow: hidden;
+  position: relative;
+  top: 0px;
+  width: 375px;
+}
+.positron .component-4-1-y5mpsS img {
+  object-fit: cover;
+}
+.positron .component-4-1-y5mpsS video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+.positron .exclusion-4-gWjEUN {
+  background-color: transparent;
+  height: 67.74%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.positron .exclusion-5-DDKxlu {
+  background-color: transparent;
+  height: 72.00%;
+  left: 0px;
+  position: absolute;
+  top: 27.99%;
+  width: 62.16%;
+}
+.positron .exclusion-6-xn9F0I {
+  background-color: transparent;
+  height: 78.12%;
+  left: 0px;
+  position: absolute;
+  top: 21.88%;
+  width: 72.55%;
+}
+.positron .status-bar-C61RwL {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 18px;
+  margin-left: 6.33px;
+  position: relative;
+  width: 339px;
+}
+.positron .time-style-ASWxeQ {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 54px;
+}
+.positron .wifi-ASWxeQ {
+  background-color: transparent;
+  height: 11px;
+  position: absolute;
+  right: 29px;
+  top: 3px;
+  width: 15px;
+}
+.positron .wifi-path-HNS8dx {
+  background-color: transparent;
+  height: 48.92%;
+  left: 17.44%;
+  position: absolute;
+  top: 51.08%;
+  width: 65.15%;
+}
+.positron .wifi-path-gWjEUN {
+  background-color: transparent;
+  height: 30.77%;
+  left: 34.86%;
+  position: absolute;
+  top: 69.23%;
+  width: 30.29%;
+}
+.positron .wifi-path-jPd2dr {
+  background-color: transparent;
+  height: 63.85%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100.00%;
+}
+.positron .x-time-X59jRg {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'SFPro Text-Semibold', Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  height: 20px;
+  left: 0px;
+  letter-spacing: -0.30px;
+  line-height: 15px;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: calc(100.00% + 2px);
+}
+:root {
+  --baby-powder: rgba(252,252,252,1.0);
+  --black: rgba(0,0,0,1.0);
+  --white: rgba(255,255,255,1.0);
+}

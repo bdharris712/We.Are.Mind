@@ -14,6 +14,7 @@ body {
     font-size:22px;
     color:#FCFCFC;
     background-color:#334856;
+    text-align:center;
 }
 a {
 }
@@ -22,6 +23,7 @@ button {
     border-radius:10px;
     background-color:#D97D54;
     color:white;
+    font-size:22;
 }
 h1 {
     font-size:56px;
@@ -32,3 +34,6 @@ h3 {}
 h4 {}
 h5 {}
 h6 {}
+nav {
+    text-align:left;
+}

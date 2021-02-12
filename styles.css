@@ -9,13 +9,305 @@ Bold text that is not larger is size 24
 Onboarding text is size 24
 Other text is size 20 as a standard */
 
-body {}
-p {}
-a {}
-h1 {}
+body {
+    font-family:'Montserrat',Helvetica,sans-serif;
+    font-size:22px;
+    color:black;
+    background-image: cross-fade(black,white);
+}
+
+a {
+
+}
+button {
+    border-color:none;
+    border-radius:10px;
+    background-color:black;
+    color:white;
+}
+h1 {
+    font-size:
+}
 h2 {}
 h3 {}
 h4 {}
 h5 {}
 h6 {}
 
+/* screen - positron-with-gif */
+
+.black-border-1px {
+    border: 1px solid var(--black);
+  }
+  .montserrat-medium-black-15px {
+    color: var(--black);
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .positron-with-gif {
+    align-items: center;
+    background-color: var(--white);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 812px;
+    justify-content: flex-start;
+    overflow: hidden;
+    overflow-x: hidden;
+    padding: 14.3px 0;
+    position: relative;
+    width: 375px;
+  }
+  .positron-with-gif .battery-ASWxeQ {
+    background-color: transparent;
+    height: 11px;
+    position: absolute;
+    right: 0px;
+    top: 3px;
+    width: 24px;
+  }
+  .positron-with-gif .border-hvZ4bZ {
+    background-color: transparent;
+    border-radius: 2.6666667461395264px;
+    height: 100%;
+    left: 0px;
+    opacity: 0.35;
+    position: absolute;
+    top: 0px;
+    width: calc(100.00% - 2px);
+  }
+  .positron-with-gif .cap-hvZ4bZ {
+    background-color: transparent;
+    bottom: calc(50.00% - 2px);
+    height: 4px;
+    position: absolute;
+    right: 0px;
+    width: 1px;
+  }
+  .positron-with-gif .capacity-hvZ4bZ {
+    background-color: var(--black);
+    border-radius: 1.3333333730697632px;
+    height: calc(100.00% - 4px);
+    left: 2px;
+    position: absolute;
+    top: 2px;
+    width: 18px;
+  }
+  .positron-with-gif .cellular-c-ction-path-86n9Io {
+    background-color: transparent;
+    height: 99.99%;
+    left: 60.87%;
+    position: absolute;
+    top: 0px;
+    width: 39.13%;
+  }
+  .positron-with-gif .cellular-c-ction-path-Bjhz4v {
+    background-color: transparent;
+    height: 66.66%;
+    left: 0px;
+    position: absolute;
+    top: 33.33%;
+    width: 39.13%;
+  }
+  .positron-with-gif .cellular-c-ction-path-DDKxlu {
+    background-color: transparent;
+    height: 100%;
+    left: 75.67%;
+    position: absolute;
+    top: 0px;
+    width: 24.32%;
+  }
+  .positron-with-gif .cellular-c-ction-path-xn9F0I {
+    background-color: transparent;
+    height: 100.00%;
+    left: 82.35%;
+    position: absolute;
+    top: 0px;
+    width: 17.65%;
+  }
+  .positron-with-gif .cellular-connection-ASWxeQ {
+    background-color: transparent;
+    height: 11px;
+    position: absolute;
+    right: 50px;
+    top: 3px;
+    width: 17px;
+  }
+  .positron-with-gif .color-burst-4eduM0 {
+    background-color: transparent;
+    height: 812px;
+    left: 95px;
+    position: absolute;
+    top: 0px;
+    width: 375px;
+  }
+  .positron-with-gif .component-4-1-KpbhL1 {
+    background-color: var(--white);
+    border: 1px solid var(--baby-powder);
+    height: 812px;
+    left: 0px;
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    width: 375px;
+  }
+  .positron-with-gif .component-4-1-KpbhL1 img {
+    object-fit: cover;
+  }
+  .positron-with-gif .component-4-1-KpbhL1 video {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+  .positron-with-gif .emblem-ZbYwJx {
+    background-color: transparent;
+    background-image: url(../img/path-18@1x.svg);
+    background-size: 100% 100%;
+    height: 83px;
+    left: calc(47.63% - 40px);
+    position: absolute;
+    top: 2px;
+    width: 83px;
+  }
+  .positron-with-gif .exclusion-4-gWjEUN {
+    background-color: transparent;
+    height: 67.74%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+  }
+  .positron-with-gif .exclusion-5-DDKxlu {
+    background-color: transparent;
+    height: 72.00%;
+    left: 0px;
+    position: absolute;
+    top: 27.99%;
+    width: 62.16%;
+  }
+  .positron-with-gif .exclusion-6-xn9F0I {
+    background-color: transparent;
+    height: 78.12%;
+    left: 0px;
+    position: absolute;
+    top: 21.88%;
+    width: 72.55%;
+  }
+  .positron-with-gif .logo-for-o-r-animated-4eduM0 {
+    background-color: transparent;
+    height: 176px;
+    left: 0px;
+    position: absolute;
+    top: 219px;
+    width: 573px;
+  }
+  .positron-with-gif .overlap-group-C61RwL {
+    background-color: transparent;
+    flex-shrink: 1;
+    height: 812px;
+    margin-left: 8.0px;
+    margin-top: 66px;
+    position: relative;
+    width: 573px;
+  }
+  .positron-with-gif .overlay-ZbYwJx {
+    background-color: rgba(20,20,20,1.0);
+    border: 1px solid rgba(112,112,112,1.0);
+    height: 100%;
+    left: 71px;
+    opacity: 0.3;
+    position: absolute;
+    top: 0px;
+    width: 410px;
+  }
+  .positron-with-gif .path-19-JIUMKT {
+    background-color: transparent;
+    height: 29px;
+    left: calc(49.64% - 15px);
+    position: absolute;
+    top: calc(46.46% - 14px);
+    width: 29px;
+  }
+  .positron-with-gif .positron-ZbYwJx {
+    background-color: transparent;
+    bottom: calc(24.53% - 17px);
+    color: var(--baby-powder);
+    font-family: 'Montserrat', Helvetica, Arial, serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    height: 70px;
+    left: 0px;
+    letter-spacing: 0.00px;
+    line-height: 56px;
+    position: absolute;
+    text-align: center;
+    width: calc(100.00% + 2px);
+  }
+  .positron-with-gif .status-bar-C61RwL {
+    background-color: transparent;
+    flex-shrink: 1;
+    height: 18px;
+    margin-left: 6.33px;
+    position: relative;
+    width: 339px;
+  }
+  .positron-with-gif .time-style-ASWxeQ {
+    background-color: transparent;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 54px;
+  }
+  .positron-with-gif .wifi-ASWxeQ {
+    background-color: transparent;
+    height: 11px;
+    position: absolute;
+    right: 29px;
+    top: 3px;
+    width: 15px;
+  }
+  .positron-with-gif .wifi-path-HNS8dx {
+    background-color: transparent;
+    height: 48.92%;
+    left: 17.44%;
+    position: absolute;
+    top: 51.08%;
+    width: 65.15%;
+  }
+  .positron-with-gif .wifi-path-gWjEUN {
+    background-color: transparent;
+    height: 30.77%;
+    left: 34.86%;
+    position: absolute;
+    top: 69.23%;
+    width: 30.29%;
+  }
+  .positron-with-gif .wifi-path-jPd2dr {
+    background-color: transparent;
+    height: 63.85%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100.00%;
+  }
+  .positron-with-gif .x-time-X59jRg {
+    background-color: transparent;
+    height: 20px;
+    left: 0px;
+    letter-spacing: -0.30px;
+    line-height: 15px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: calc(100.00% + 2px);
+  }
+  :root {
+    --baby-powder: rgba(252,252,252,1.0);
+    --black: rgba(0,0,0,1.0);
+    --white: rgba(255,255,255,1.0);
+  }

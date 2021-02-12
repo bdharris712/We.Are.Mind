@@ -9,7 +9,12 @@ Bold text that is not larger is size 24
 Onboarding text is size 24
 Other text is size 20 as a standard */
 
-body {}
+body{
+    background-image: linear-gradient(#287781, #A0C1C1); 
+    text-align: center;
+}
+
+/*
 p {}
 a {}
 h1 {}
@@ -17,5 +22,4 @@ h2 {}
 h3 {}
 h4 {}
 h5 {}
-h6 {}
-
+h6 {}*/

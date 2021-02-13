@@ -1,66 +1,3 @@
-/* montserrat 22
-semibold and regular and bold
-
-Positron name is size 56 on loading screens
-size 48 on onboarding screens
-
-some large text is size 30
-Bold text that is not larger is size 24
-Onboarding text is size 24
-Other text is size 20 as a standard */
-
-/*
-p {}
-
-button {
-    border:none;
-    color:white;
-    font-size:22;
-    height:50px;
-    width:264px;
-    background: var(--unnamed-color-d97d54) 0% 0% no-repeat padding-box;
-    background: #D97D54 0% 0% no-repeat padding-box;
-    box-shadow: 0px 20px 50px #00004D;
-    border-radius: 100px;
-    opacity: 1;
-}
-h1 {
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 56px/68px var(--unnamed-font-family-montserrat);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    text-align: center;
-    font: normal normal bold 56px/68px Montserrat;
-    letter-spacing: 0px;
-    color: #FCFCFC;
-    opacity: 1;
-    border:solid red 1px;
-}
-h2 {font-size:48px;
-    width:236px;
-    font-weight:600;
-    border:solid pink 1px;
-    color: #FCFCFC;
-}
-h3 {}
-h4 {}
-h5 {}
-h6 {}
-h6 {}*/
-
-
-/* #para1 {
-    top: 302px;
-left: 505px;
-width: 911px;
-height: 56px;
-color: #000000;
-text-align: center;
-font: normal normal normal 20px/24px 'Montserrat',Helvetica,sans-serif;
-letter-spacing: 0px;
-color: #000000;
-opacity: 1;
-} */
-
-
 body{ 
     background-image: linear-gradient(#287781, #7EADB3);
     text-align: center;
@@ -82,15 +19,25 @@ section p {
     padding: 20px 0px 20px 0px
 }
 
+h1{
+    margin: 40px 0px 12px 0px;
+}
+
 .btn{
     border-radius: 40px;
     padding-top: 18px;
     width: 260px;
     height: 70px;
+    font-size: 24px;
+    margin: auto 0;
 }
 
 .cta{
     margin: 20px 0px 80px 0px;
+}
+
+.card{
+    color: #666666;
 }
 
 .btn-primary{
@@ -109,7 +56,7 @@ section p {
 }
 
 #social img{
-    padding: 0px 12px 12px 0px;
+    padding: 0px 14px 14px 0px;
 }
 
 footer{

@@ -10,20 +10,28 @@
     <title>Positron</title>
 </head>
 <body>
-    <ul class="nav flex-column" style="text-align:left; position:fixed;">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Resources</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Download</a>
-        </li>
-      </ul>    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+        <!--<a class="navbar-brand" href="#">Navbar</a>-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     <header>
         <p><img src="images/Logo.png"> Positron</p>
     </header>
@@ -193,12 +201,13 @@
     </section>
     <!-- Team -->
 
-    <footer>      
+    <footer>
+        <div class="container-fluid">       
         <div class="row">
-            <div id="appstore" class="col-sm col-md">
+            <div id="appstore" class="col-sm-12 col-lg order-sm-3 order-lg-1">
                 <img alt="download at app store" src="images/appstore-v2.png">     
             </div>  
-            <div id="footernav" class="col-sm col-md"> 
+            <div id="footernav" class="col-sm-12 col-lg order-sm-1 order-lg-2"> 
                 <ul class="nav">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Privacy</a>
@@ -214,11 +223,12 @@
                     </li>
                 </ul>                
             </div>
-            <div id="social" class="col-sm col-md">
+            <div id="social" class="col-sm-12 col-lg order-sm-2 order-lg-3">
                 <img alt="instagram" src="images/awesome-instagram.png">
                 <img alt="facebook" src="images/awesome-facebook.png">
                 <img alt="twitter" src="images/awesome-twitter.png">
             </div>
+        </div>
         </div>        
     </footer>
 

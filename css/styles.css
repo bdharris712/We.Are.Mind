@@ -4,29 +4,34 @@ body{
     color: #ffffff;
 }
 
-.navbar{
+.navbar-custom{
     text-align: left;
     font-size: 20px;
     font-weight: 400;
     font-family:'Montserrat', Helvetica, sans-serif;
+    background-color: #a0c1c1;
 }
 
-.bg-dark, .navbar-dark{
-    opacity: 0.9;
+.navbar-custom a{
+    color: #ffffff;
 }
+
+/*.bg-dark, .navbar-dark{
+    opacity: 0.9;
+}*/
 
 header p {
     color: #D97D54;
     font-size: 60px;
     font-family:'Montserrat', Helvetica, sans-serif;
     padding: 60px 0px 0px 0px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 section p {
     color: #526464;
     font-family:'Hind', Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.8;
     margin: 0px 30% 0px 30%;
     padding: 0px 0px 20px 0px
@@ -77,16 +82,17 @@ h1{
 
 #social{
     /*text-align: right;*/
-    padding-right: 40px;
+    padding: 20px 0px 0px 0px;
 }
 
-#social img{
-    padding: 0px 14px 14px 0px;
+#social i{
+    /*text-align: right;*/
+    padding: 0px 30px 0px 0px;
 }
 
 footer{
     background-color: #a0c1c1;
-    padding: 40px 0px 40px 0px;
+    padding: 20px 0px 40px 0px;
     font-family:'Montserrat', Helvetica, sans-serif;
     font-size: 20px;
 }

@@ -1,19 +1,37 @@
+/* FONTS AND COLORS
+    dark gray: rgba(82,100,100,1.0)
+    orange   : rgba(217,125,84,1.0)
+    white    : rgba(255,255,255,1.0)
+    blue     : rgba(160,193,193,1.0) */
+
 body{ 
     min-height: 110vh;
     text-align: center;
-    color: #ffffff;
+    margin:2%;
+    letter-spacing:0.93px;
+    font-family:'Montserrat',Helvetica,sans-serif;
 }
-
+header {
+    text-align:left;
+}
 .navbar-custom{
     text-align: left;
     font-size: 20px;
     font-weight: 400;
     font-family:'Montserrat', Helvetica, sans-serif;
-    background-color: #a0c1c1;
+    background-color: white;
+    margin-top:80px;
+    margin-left:100px;
+    border:solid 1px blue;
 }
 
 .navbar-custom a{
-    color: #ffffff;
+    color: #526464;
+    text-transform:uppercase;
+    font-weight:600;
+    font-size:16px;
+    font-style:normal;
+    border:solid 1px red;
 }
 
 /*.bg-dark, .navbar-dark{
@@ -21,16 +39,32 @@ body{
 }*/
 
 header p {
-    color: #D97D54;
-    font-size: 60px;
+    color: #526464;
+    font-size: 76px;
     font-family:'Montserrat', Helvetica, sans-serif;
     padding: 60px 0px 0px 0px;
-    margin-bottom: 60px;
+    margin-left:80px;
+    font-weight:400;
+    text-transform:uppercase;
 }
-
+.subHeader {
+    color: #D97D54;
+    font-size:31px;
+    font-weight:400;
+    text-align:left;
+    font-style:normal;
+    letter-spacing:0.93px;
+}
+.dark {
+    color: #526464;
+}
+.hangingindent {
+    padding-left: 240px ;
+    text-indent: -120px ;
+  }
 section p {
     color: #526464;
-    font-family:'Hind', Helvetica, sans-serif;
+    font-family:'Montserrat', Helvetica, sans-serif;
     font-size: 22px;
     line-height: 1.8;
     margin: 0px 30% 0px 30%;
@@ -105,9 +139,9 @@ footer{
     color: #ffffff;
 }
 
-/* top nav 
-.nav-link {
-    color:#334856;
+/* top nav  */
+/* .nav-link {
+    color: #526464;
 }
 .nav-link:hover {
     color:#212529;
@@ -119,7 +153,7 @@ footer{
 .nav-link.active:hover {
     color:#212529;
     font-weight:500;
-}/*
+} */
 
 
 /* Team Code Nate Found - Team design card flipper using Bootstrap 4*/

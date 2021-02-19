@@ -36,7 +36,7 @@
         </div>
       </nav>
     <header>
-        <p><img src="images/1a-Positron-logo-REAL@3x.png"> Positron</p>
+        <p><img class="img-fluid" src="images/1a-Positron-logo-REAL@3x.png"> Positron</p>
     </header>
     <section id="content">
         <h1>What is Positron?</h1>
@@ -44,7 +44,7 @@
             In Physics, a Positron is the opposite of a negative charge. 
             A positron can annihilate negative particles, called electrons, with a burst of energy.
         </p>
-        <p class="dark">
+        <p>
             The positron app brings a Burt of energy into mental health for 
             those experiencing it and those wanting to help others.
         </p>
@@ -52,7 +52,14 @@
             <a href="#" class="btn btn-primary btn-lg" role="button">Try It For Free</a>
         </p>
         <div class="imgfit">
-            <img class="cta img-responsive" src="images/prototypes-v3.png">
+            <picture>
+                <source srcset="images/prototypes-v3.png" media="(min-width: 1400px)"/>
+                <source srcset="images/prototypes-v3.png" media="(min-width: 1200px)"/>
+                <source srcset="images/prototypes-v3.png" media="(min-width: 800px)"/>
+                <source srcset="images/prototypes-mobile.png" media="(min-width: 600px)"/>
+                <img src="images/prototypes-v4.png" alt="example"/>
+            </picture>
+            <!-- <img class="cta img-responsive" src="images/prototypes-v4.png">   -->       
         </div>
 
     </section>
@@ -85,8 +92,7 @@
         <h1>Preview of the App</h1>
         <p>Interested in trying out our app before spending your precious data on the download? Feel free to explore it here to help you decide if
             it's something you might benefit from.</p>
-            <iframe>
-            </iframe>
+            <iframe width="375" height="812" src="https://xd.adobe.com/embed/229a09f6-3e33-4a8c-9b23-26960139490b-77c9/" frameborder="0" allowfullscreen></iframe>
         <p>And since we're just getting started, we love feedback! Please enter any suggestions here:</p>
         <p><input class="form-control form-control-lg" type="text" placeholder="Provide feedback here..."></p>
         <button class="btn btn-secondary btn-lg">Submit</button>
@@ -131,7 +137,8 @@
                                     <div class="card-body text-center">
                                         <p><img class=" img-fluid" src="images/mask-group-22@1x.png" alt="card image"></p>
                                         <h4 class="card-title">Biran Harris</h4>
-                                        <p class="card-text">UX Research &amp; UI Design</p>     
+                                        <p class="card-text">UX Research &amp; UI Design</p>
+                                        <i class="fas fa-arrow-right"></i>     
                                     </div>
                                 </div>
                             </div>
@@ -206,28 +213,39 @@
 
     <footer>
         <div class="container">
+
             <div id="footernav"> 
                 <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Resources</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Download</a>
-                    </li>
+                    <div class="col-xs-12 col-sm">    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                    </div>
+                    <div class="col-xs-12 col-sm">    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                    </div>
+                    <div class="col-xs-12 col-sm">    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Resources</a>
+                        </li>
+                    </div>
+                    <div class="col-xs-12 col-sm">    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Download</a>
+                        </li>
+                    </div>
                 </ul>                
             </div>
-        </div>
-        <div id="social">
-            <i class="fab fa-facebook fa-lg"></i>
-            <i class="fab fa-twitter fa-lg"></i>
-            <i class="fab fa-instagram fa-lg"></i>            
-        </div>                        
+
+      
+            <div id="social">
+                <i class="fab fa-facebook fa-lg"></i>
+                <i class="fab fa-twitter fa-lg"></i>
+                <i class="fab fa-instagram fa-lg"></i>            
+            </div>     
+        </div>                   
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 

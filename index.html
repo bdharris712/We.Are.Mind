@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="css/styles.css">
+
     <title>Positron</title>
 </head>
 <body>
@@ -51,7 +52,7 @@
         <p class="cta">
             <a href="#" class="btn btn-primary btn-lg" role="button">Download The App</a>
         </p>
-        <div class="imgfit">
+        <div class="imgfit wow bounceInUp">
             <picture>
                 <source srcset="images/prototypes-v3.png" media="(min-width: 1400px)"/>
                 <source srcset="images/prototypes-v3.png" media="(min-width: 1200px)"/>
@@ -65,34 +66,51 @@
     </section>
     <section>
         <h1>Why Are We Here?</h1>
+        <!--
         <p>Even though we're anti-matter, Positron lets you start a conversation with the people who <em>matter</em> most to you.</p>
-        <p>We like providing resources that people can access on their own, but we really love helping to get others involved. As a social species,
+        <p>
+            We like providing resources that people can access on their own, but we really love helping to get others involved. As a social species,
             humans are meant to be together and share even the intimate parts of their lives and mental well-being with others. Think of it as a moment
             to sit around the campfire with a member of your tribe and talk it out. Our ancestors literally survived the Ice Age by banding together
-            and talking it out. If you've forgotten the art of inviting others in, this is a wonderful place to start.</p>
-            <p>Positron is a safe place to reach out for help, or to reach out and offer help to someone you care about. We all need it. Mental health
-                isn't something that some people have and other don't--we <em>all</em> have brains with different degrees of health depending on the day,
-                the hour, or the second.</p>
-                <p>You don't have to be diagnosed with a disorder to ask for a helping hand. And you can always ask someone else how
-                they're doing. Like, how they're <em>really</em> doing. And that's basically our reason for existing. How are <em>you</em> doing?
-            </p>
+            and talking it out. If you've forgotten the art of inviting others in, this is a wonderful place to start.
+        </p>
+        -->
+        <p>
+            Positron is a safe place to reach out for help, or to reach out and offer help to someone you care about. We all need it. Mental health
+            isn't something that some people have and other don't -- we <em>all</em> have brains with different degrees of health depending on the day,
+            the hour, or the second.
+        </p>
+        <!--
+        <p>
+            You don't have to be diagnosed with a disorder to ask for a helping hand. And you can always ask someone else how
+            they're doing. Like, how they're <em>really</em> doing. And that's basically our reason for existing. How are <em>you</em> doing?
+        </p>
+        -->
     </section>
     <section>
         <h1>What We Do</h1>
-        <p>Positron has a library of conversation starters you can use to strike up a natural but meaningful conversation with a spouse, a coworker,
-            a neighbor, or even just to help you get started on a journaling session (we highly recommend this as a strategy to improve your mental well-being, by the way).
-            We've all had difficult or intimidating conversations, but we truly believe the outcome is worth it. Let us help you navigate these topics.</p>
-        <p>At Positron, we don't need a lot of personal details about anyone. We just want to be a support for you in whatever way works best for you. If you want to
+        <p>
+            Positron has a library of conversation starters you can use to strike up a natural but meaningful conversation with a spouse, a coworker,
+            a neighbor <!--, or even just to help you get started on a journaling session <!--(we highly recommend this as a strategy to improve your mental well-being, by the way-->.
+            We've all had difficult or intimidating conversations, but we truly believe the outcome is worth it. Let us help you navigate these topics.
+        </p>
+        <!--
+        <p>
+            At Positron, we don't need a lot of personal details about anyone. We just want to be a support for you in whatever way works best for you. If you want to
             set up an account and log a bunch of personal data like your mood each morning after waking up or reflect on the way you feel before and after a workout,
-            we can help you with that. If you'd rather visit our website as an anonymous guest, we're ok with that too. Honestly, we just want you to be happy.</p>
-            <p>We offer a variety of resources that are already available elsewhere on the web, but we've saved you the time and trouble of hunting them
-                all down. You can even enter your ZIP code (if you trust us enough) and we'll point you to some local resources.</p>
+            we can help you with that. If you'd rather visit our website as an anonymous guest, we're ok with that too. Honestly, we just want you to be happy.
+        </p>
+        <p>
+            We offer a variety of resources that are already available elsewhere on the web, but we've saved you the time and trouble of hunting them
+            all down. You can even enter your ZIP code (if you trust us enough) and we'll point you to some local resources.
+        </p>
+        -->
     </section>
     <section>
         <h1>Preview of the App</h1>
         <p>Interested in trying out our app before spending your precious data on the download? Feel free to explore it here to help you decide if
             it's something you might benefit from.</p>
-            <iframe width="375" height="812" src="https://xd.adobe.com/embed/229a09f6-3e33-4a8c-9b23-26960139490b-77c9/" frameborder="0" allowfullscreen></iframe>
+            <iframe id="preview" width="375" height="812" src="https://xd.adobe.com/embed/229a09f6-3e33-4a8c-9b23-26960139490b-77c9/" frameborder="0" allowfullscreen></iframe>
         <p>And since we're just getting started, we love feedback! Please enter any suggestions here:</p>
         <p><input class="form-control form-control-lg" type="text" placeholder="Provide feedback here..."></p>
         <button class="btn btn-secondary btn-lg">Submit</button>
@@ -260,6 +278,7 @@
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-</script>
+    </script>
+
 </body>
 </html>

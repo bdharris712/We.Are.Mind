@@ -1,19 +1,35 @@
+/* FONTS AND COLORS
+    dark gray: rgba(82,100,100,1.0)
+    orange   : rgba(217,125,84,1.0)
+    white    : rgba(255,255,255,1.0)
+    blue     : rgba(160,193,193,1.0) */
+
 body{ 
     min-height: 110vh;
     text-align: center;
-    color: #ffffff;
+    margin:2%;
+    letter-spacing:0.93px;
+    font-family:'Montserrat',Helvetica,sans-serif;
 }
-
+header {
+    text-align:left;
+}
 .navbar-custom{
     text-align: left;
     font-size: 20px;
     font-weight: 400;
     font-family:'Montserrat', Helvetica, sans-serif;
-    background-color: #a0c1c1;
+    background-color: white;
+    margin-top:80px;
+    margin-left:100px;
 }
 
 .navbar-custom a{
-    color: #ffffff;
+    color: #526464;
+    text-transform:uppercase;
+    font-weight:600;
+    font-size:16px;
+    font-style:normal;
 }
 
 .navbar-custom a:hover{
@@ -25,14 +41,28 @@ body{
 }*/
 
 header p {
-    color: #D97D54;
-    font-size: 60px;
+    color: #526464;
+    font-size: 76px;
     font-family:'Montserrat', Helvetica, sans-serif;
     padding: 60px 0px 0px 0px;
-    margin-bottom: 60px;
+    margin-left:80px;
+    font-weight:400;
+    text-transform:uppercase;
 }
 
+
 /*from Brian*/
+.subHeader {
+    color: #D97D54;
+    font-size:31px;
+    font-weight:400;
+    font-style:normal;
+    letter-spacing:0.93px;
+}
+.dark {
+    color: #526464;
+}
+
 .hangingindent {
     padding-left: 240px ;
     text-indent: -120px ;
@@ -40,7 +70,7 @@ header p {
 
 section p {
     color: #526464;
-    font-family:'Hind', Helvetica, sans-serif;
+    font-family:'Montserrat', Helvetica, sans-serif;
     font-size: 22px;
     line-height: 1.8;
     margin: 0px 30% 0px 30%;
@@ -56,26 +86,42 @@ h1{
     margin: 40px 0px 40px 0px;
 }
 
+
 #preview{
     margin: 40px 0px 40px 0px;
     border: 2px solid #666666;
 }
 
 /*.btn-primary{
-    border-radius: 40px;
+    border-radius: 40px; */
+
+.btn-primary{
+    border-radius: 100px;
+    box-shadow:0px 20px 30px rgba(2,2,2,0.302);
     padding-top: 18px;
     width: 260px;
     height: 70px;
     font-size: 24px;
     margin: auto 0;
+    flex-shrink:1;
+    height:89px;
+    width:511px;
+    transform:scale(0.9);
+    font-family:'Montserrat',Helvetica,sans-serif;
+    transition:all 0.2 ease;
+    letter-spacing:5.4px;
+    font-weight:400; 
+    font-style:normal;
+    font-size:27px;
+    margin-top:136px;
 }
 
 .btn-primary:hover{
     background-color: #B86528;
     border: 1px solid #665152;
-}*/
+}
 
-/*Brians Button*/
+/*Brians Button
 .btn-primary{
     border-radius: 100px;
     box-shadow:0px 10px 15px rgba(2,2,2,0.302);
@@ -106,6 +152,7 @@ h1{
     background-color: #CC794E;
     border: none;
 }
+*/
 
 .cta{
     margin: 20px 0px 80px 0px;
@@ -117,7 +164,7 @@ h1{
 
 .btn-primary{
     background-color: #CC794E;
-    border: 1px solid #665152;
+    border: none;
 }
 
 /*footer section*/
@@ -153,6 +200,7 @@ footer{
     color: #ffffff;
 }
 
+
 #footernav a:hover{
     font-weight: 500;
 }
@@ -160,6 +208,10 @@ footer{
 /* top nav 
 .nav-link {
     color:#334856;
+
+/* top nav  */
+/* .nav-link {
+    color: #526464;
 }
 .nav-link:hover {
     color:#212529;
@@ -171,7 +223,7 @@ footer{
 .nav-link.active:hover {
     color:#212529;
     font-weight:500;
-}/*
+} */
 
 
 /* Team Code Nate Found - Team design card flipper using Bootstrap 4*/

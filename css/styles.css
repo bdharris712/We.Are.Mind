@@ -32,6 +32,10 @@ header {
     font-style:normal;
 }
 
+.navbar-custom a:hover{
+    font-weight: 500;
+}
+
 /*.bg-dark, .navbar-dark{
     opacity: 0.9;
 }*/
@@ -45,6 +49,9 @@ header p {
     font-weight:400;
     text-transform:uppercase;
 }
+
+
+/*from Brian*/
 .subHeader {
     color: #D97D54;
     font-size:31px;
@@ -55,10 +62,12 @@ header p {
 .dark {
     color: #526464;
 }
+
 .hangingindent {
     padding-left: 240px ;
     text-indent: -120px ;
   }
+
 section p {
     color: #526464;
     font-family:'Montserrat', Helvetica, sans-serif;
@@ -76,6 +85,15 @@ h1{
     color: #526464;
     margin: 40px 0px 40px 0px;
 }
+
+
+#preview{
+    margin: 40px 0px 40px 0px;
+    border: 2px solid #666666;
+}
+
+/*.btn-primary{
+    border-radius: 40px; */
 
 .btn-primary{
     border-radius: 100px;
@@ -100,8 +118,41 @@ h1{
 
 .btn-primary:hover{
     background-color: #B86528;
+    border: 1px solid #665152;
+}
+
+/*Brians Button
+.btn-primary{
+    border-radius: 100px;
+    box-shadow:0px 10px 15px rgba(2,2,2,0.302);
+    padding-top: 18px;
+    width: 260px;
+    height: 70px;
+    font-size: 24px;
+    margin: auto 0;
+    flex-shrink:1;
+    height:89px;
+    width:511px;
+    transform:scale(0.9);
+    font-family:'Montserrat',Helvetica,sans-serif;
+    transition:all 0.2 ease;
+    letter-spacing:5.4px;
+    font-weight:400;
+    font-style:normal;
+    font-size:27px;
+    margin-top:60px;
+}
+
+.btn-primary:hover{
+    background-color: #B86528;
     border: none;
 }
+
+.btn-primary{
+    background-color: #CC794E;
+    border: none;
+}
+*/
 
 .cta{
     margin: 20px 0px 80px 0px;
@@ -135,6 +186,7 @@ h1{
 
 footer{
     background-color: #a0c1c1;
+    font-weight: 400;
     padding: 20px 0px 40px 0px;
     font-family:'Montserrat', Helvetica, sans-serif;
     font-size: 20px;
@@ -147,6 +199,15 @@ footer{
 #footernav a{
     color: #ffffff;
 }
+
+
+#footernav a:hover{
+    font-weight: 500;
+}
+
+/* top nav 
+.nav-link {
+    color:#334856;
 
 /* top nav  */
 /* .nav-link {
@@ -279,13 +340,4 @@ section .section-title {
     margin: 0;
     padding: 0;
 }
-
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-
-    }
-  }
-
-
 
